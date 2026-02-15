@@ -2,9 +2,12 @@
 bin/
 obj/
 obj_pub/
+obj_pub2/
+obj_trim_fresh/
 buildtmp/
 obj_tmp/
 dist/
+dist_*/
 dist_pkg_*/
 *.scr
 *.zip
