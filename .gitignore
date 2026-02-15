@@ -1,0 +1,28 @@
+# Build artifacts
+bin/
+obj/
+buildtmp/
+obj_tmp/
+dist/
+dist_pkg_*/
+*.scr
+*.zip
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Local temporary/probe files
+*probe*.txt
+screensaver/
+Form1.cs
+Form1.Designer.cs
+DebugLog.cs
+delete_probe2.txt
+repo_test/
+
+# Internal gitdir shims used in this environment
+.git_public/
+.git_public2/
+.git_repo/
