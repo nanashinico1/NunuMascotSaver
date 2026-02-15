@@ -16,20 +16,8 @@ Windows 11 向けヌヌぬいをがたくさん出てくるスクリーンセー
 - `/s`: フルスクリーン実行
 - `/p <HWND>`: スクリーンセーバープレビュー
 
-## 配布用 `.scr` 作成
-
-```powershell
-.\publish-screensaver.ps1
-```
-
-出力先:
-
-- `dist\NunuMascotSaver.scr`
-
 ## インストール
 
-1. `NunuMascotSaver.scr` を `%WINDIR%\System32`（必要なら `SysWOW64` も）へコピー
-2. Windows の「スクリーンセーバー設定」で `NunuMascotSaver` を選択
-3. 「設定」ボタンで各オプション（キャラ数・衝突変形・文字列表示）を変更
+1. `NunuMascotSaver.scr` を 右クリックしてインストールしてください
 
 設定ファイルは `%AppData%\NunuMascotSaver\settings.json` に保存されます。
