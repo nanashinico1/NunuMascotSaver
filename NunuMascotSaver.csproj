@@ -5,8 +5,11 @@
     <TargetFramework>net9.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Assets\mae.ico</ApplicationIcon>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <AssemblyName>NunuMascotSaver</AssemblyName>
     <RootNamespace>NunuMascotSaver</RootNamespace>
     <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
@@ -15,7 +18,10 @@
   <ItemGroup>
     <Compile Remove="Form1.cs" />
     <Compile Remove="Form1.Designer.cs" />
+    <Compile Remove="obj\**\*.cs" />
+    <Compile Remove="obj_tmp\**\*.cs" />
     <Compile Remove="buildtmp\**\*.cs" />
+    <Compile Remove="repo_test\**\*.cs" />
     <Compile Remove="screensaver\NunuMascotSaver\**\*.cs" />
   </ItemGroup>
 

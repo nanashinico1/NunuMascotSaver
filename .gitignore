@@ -1,6 +1,7 @@
 # Build artifacts
 bin/
 obj/
+obj_pub/
 buildtmp/
 obj_tmp/
 dist/
